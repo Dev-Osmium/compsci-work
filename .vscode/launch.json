@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "xyz.devosmium.apcompsci.spherecalculator.Main",
+            "projectName": "apcompscia"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DisplayTime",
+            "request": "launch",
+            "mainClass": "xyz.devosmium.apcompsci.displaytime.DisplayTime",
+            "projectName": "apcompscia"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BookWork",
+            "request": "launch",
+            "mainClass": "xyz.devosmium.apcompsci.week7.BookWork",
+            "projectName": "apcompscia"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Rectangle",
+            "request": "launch",
+            "mainClass": "xyz.devosmium.apcompsci.rectangle.Rectangle",
+            "projectName": "apcompscia"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "xyz.devosmium.apcompsci.consoleinput.Main",
+            "projectName": "apcompscia"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "xyz.devosmium.apcompsci.Math1.Main",
+            "projectName": "apcompscia"
+        }
+    ]
+}

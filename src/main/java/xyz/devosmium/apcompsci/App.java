@@ -3,15 +3,38 @@
  */
 package xyz.devosmium.apcompsci;
 
-public class App
-{
-  public String getGreeting()
-  {
-    return "Hello world.";
-  }
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
 
-  public static void main(String[] args)
-  {
-    System.out.println(new App().getGreeting());
-  }
+public class App {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		HashMap<Integer, String> choices = new HashMap<Integer, String>();
+		choices.put(1, "Hello, World!");
+		choices.put(2, "Messy Code");
+
+		System.out.println("Make a choice:");
+		Set set = choices.entrySet();
+		Iterator iter = set.iterator();
+
+		while(iter.hasNext()) {
+			Map.Entry entry = (Map.Entry)iter.next();
+			System.out.println("[" + entry.getKey().toString() + "]" + " " + entry.getValue());
+		}
+
+		int userChoice = sc.nextInt();
+		do {
+			if (choices.containsKey(userChoice)) {
+				switch (userChoice) {
+					case 1:
+						xyz.devosmium.apcompsci.helloworld.Main.main(null);
+				}
+			}
+		} while (true);
+	}
 }
